@@ -2,7 +2,7 @@
 #!/bin/bash
 sudo yum update
 
-sudo yum install docker -y
+sudo yum install  docker -y
 sudo yum install conntrack -y
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo chmod +x minikube-linux-amd64
